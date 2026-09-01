@@ -2,7 +2,7 @@
 <project>
 	<app title="NightShift" file="NightShift" main="Main" version="0.1.0" company="nightshift" package="io.github.nightshift" />
 	<set name="BUILD_DIR" value="export" />
-	<window width="1280" height="720" fps="60" background="#0A0A10" hardware="true" vsync="true" />
+	<window width="1280" height="720" fps="60" background="#0C0A07" hardware="true" vsync="true" />
 	<window if="desktop" fullscreen="false" resizable="true" />
 	<source path="source" />
 	<haxelib name="flixel" />

@@ -4,26 +4,26 @@ import flixel.util.FlxColor;
 
 class Theme
 {
-	public static var background:FlxColor = 0xFF0A0A10;
-	public static var officeWall:FlxColor = 0xFF1A1A26;
-	public static var officeFloor:FlxColor = 0xFF12121C;
-	public static var desk:FlxColor = 0xFF242434;
-	public static var doorFrame:FlxColor = 0xFF2E2E42;
-	public static var doorSlab:FlxColor = 0xFF3A3A52;
-	public static var buttonIdle:FlxColor = 0xFF232334;
-	public static var buttonActive:FlxColor = 0xFF7C6CF0;
-	public static var buttonDead:FlxColor = 0xFF15151E;
-	public static var lightGlow:FlxColor = 0xFFF0E8C0;
-	public static var panel:FlxColor = 0xFF10101A;
-	public static var panelBorder:FlxColor = 0xFF2E2E42;
-	public static var mapRoom:FlxColor = 0xFF232334;
-	public static var mapRoomActive:FlxColor = 0xFF3A3A58;
-	public static var accent:FlxColor = 0xFF7C6CF0;
-	public static var textPrimary:FlxColor = 0xFFF0F0F5;
-	public static var textSecondary:FlxColor = 0xFF9A9AB0;
-	public static var powerOk:FlxColor = 0xFF6CD08C;
-	public static var powerLow:FlxColor = 0xFFE0B055;
-	public static var danger:FlxColor = 0xFFE05555;
+	public static var background:FlxColor = 0xFF0C0A07;
+	public static var officeWall:FlxColor = 0xFF221B13;
+	public static var officeFloor:FlxColor = 0xFF17120D;
+	public static var desk:FlxColor = 0xFF322820;
+	public static var doorFrame:FlxColor = 0xFF3E3226;
+	public static var doorSlab:FlxColor = 0xFF52422F;
+	public static var buttonIdle:FlxColor = 0xFF2C241B;
+	public static var buttonActive:FlxColor = 0xFFE39B27;
+	public static var buttonDead:FlxColor = 0xFF141009;
+	public static var lightGlow:FlxColor = 0xFFF5E3AE;
+	public static var panel:FlxColor = 0xFF0A120C;
+	public static var panelBorder:FlxColor = 0xFF29402F;
+	public static var mapRoom:FlxColor = 0xFF1D3324;
+	public static var mapRoomActive:FlxColor = 0xFF2F5238;
+	public static var accent:FlxColor = 0xFFE39B27;
+	public static var textPrimary:FlxColor = 0xFFF2EDDF;
+	public static var textSecondary:FlxColor = 0xFFA69C85;
+	public static var powerOk:FlxColor = 0xFF7ECB5F;
+	public static var powerLow:FlxColor = 0xFFE3B455;
+	public static var danger:FlxColor = 0xFFD84343;
 	public static var staticOverlay:FlxColor = 0x30FFFFFF;
 
 	public static var titleSize:Int = 32;
