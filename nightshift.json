@@ -1,0 +1,57 @@
+{
+	"title": "NightShift Demo",
+	"officeWidth": 1920,
+	"rooms": [
+		{ "id": "stage", "name": "Show Stage", "mapX": 105, "mapY": 20 },
+		{ "id": "backroom", "name": "Back Room", "mapX": 30, "mapY": 90 },
+		{ "id": "hall_left", "name": "Left Hall", "mapX": 60, "mapY": 170 },
+		{ "id": "hall_left_end", "name": "Left Corner", "mapX": 60, "mapY": 250 },
+		{ "id": "hall_right", "name": "Right Hall", "mapX": 180, "mapY": 170 },
+		{ "id": "hall_right_end", "name": "Right Corner", "mapX": 180, "mapY": 250 }
+	],
+	"characters": [
+		{
+			"id": "unit_a",
+			"name": "Unit A",
+			"color": "#E05555",
+			"startRoom": "stage",
+			"attackSide": "left",
+			"attackRoom": "hall_left_end",
+			"retreatRoom": "stage",
+			"moveIntervalSeconds": 4.9,
+			"waitAtDoorSeconds": 8,
+			"aiLevels": [0, 3, 6, 10, 15],
+			"moves": [
+				{ "from": "stage", "to": ["backroom", "hall_left"] },
+				{ "from": "backroom", "to": ["hall_left", "stage"] },
+				{ "from": "hall_left", "to": ["hall_left_end", "backroom"] }
+			]
+		},
+		{
+			"id": "unit_b",
+			"name": "Unit B",
+			"color": "#55A0E0",
+			"startRoom": "stage",
+			"attackSide": "right",
+			"attackRoom": "hall_right_end",
+			"retreatRoom": "stage",
+			"moveIntervalSeconds": 5.8,
+			"waitAtDoorSeconds": 10,
+			"aiLevels": [0, 2, 5, 9, 14],
+			"moves": [
+				{ "from": "stage", "to": ["hall_right"] },
+				{ "from": "hall_right", "to": ["hall_right_end", "stage"] }
+			]
+		}
+	],
+	"nights": [
+		{ "number": 1, "durationSeconds": 480, "startingPower": 100, "usageDrainPerSecond": [0.10, 0.21, 0.33, 0.46, 0.60, 0.75] },
+		{ "number": 2, "durationSeconds": 480, "startingPower": 100, "usageDrainPerSecond": [0.10, 0.21, 0.33, 0.46, 0.60, 0.75] },
+		{ "number": 3, "durationSeconds": 480, "startingPower": 100, "usageDrainPerSecond": [0.10, 0.21, 0.33, 0.46, 0.60, 0.75] },
+		{ "number": 4, "durationSeconds": 480, "startingPower": 100, "usageDrainPerSecond": [0.12, 0.24, 0.37, 0.50, 0.65, 0.80] },
+		{ "number": 5, "durationSeconds": 480, "startingPower": 100, "usageDrainPerSecond": [0.14, 0.27, 0.40, 0.55, 0.70, 0.85] }
+	],
+	"outageMinSeconds": 5,
+	"outageMaxSeconds": 20,
+	"outageAttackerId": "unit_a"
+}
