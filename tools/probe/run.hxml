@@ -1,0 +1,4 @@
+--class-path .
+--class-path ../../source
+--library json2object
+--run Probe
