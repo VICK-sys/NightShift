@@ -1,0 +1,29 @@
+{
+  "dependencies": [
+    {
+      "name": "flixel",
+      "type": "haxelib",
+      "version": "6.2.0"
+    },
+    {
+      "name": "hxcpp",
+      "type": "haxelib",
+      "version": "4.3.2"
+    },
+    {
+      "name": "json2object",
+      "type": "haxelib",
+      "version": "3.11.0"
+    },
+    {
+      "name": "lime",
+      "type": "haxelib",
+      "version": "8.3.2"
+    },
+    {
+      "name": "openfl",
+      "type": "haxelib",
+      "version": "9.5.2"
+    }
+  ]
+}

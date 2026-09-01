@@ -1,0 +1,6 @@
+export/
+.haxelib/
+vscode-project.hxml
+tools/probe/out/
+save/
+*.zip
